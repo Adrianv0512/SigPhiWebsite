@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma Phi Delta - Delta Chapter | University of Illinois Urbana-Champaign</title>
+  <meta name="description" content="Sigma Phi Delta Fraternity at UIUC - Professional engineering fraternity promoting brotherhood, academic excellence, and professional development">
+  <meta name="keywords" content="Sigma Phi Delta, UIUC, engineering fraternity, professional fraternity, University of Illinois">
+
+  <!-- Tailwind & Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: "#000000",
+          secondary: "#2d3748",
+          accent: "#c41e3a",
+          light: "#f8f9fa",
+          Highlight: "#e53e3e"
+        },
+        fontFamily: {
+          heading: ['"Georgia"', 'serif'],
+          body: ['"Arial"', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Custom JS -->
+  <script src="assets/js/scripts.js" defer></script>
+</head>
+<body class="min-h-screen bg-white font-body">
+  <!-- Header -->
+  <header class="bg-primary text-white shadow-lg">
+    <nav class="container mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+         <div class="bg-white rounded-md p-1 mr-3 shadow-md">
+    <img src="assets/images/spd_word_logo.png" alt="Sigma Phi Delta Logo" class="h-10 md:h-12">
+  </div> 
+          <h1 class="text-xl font-bold">Sigma Phi Delta</h1>
+        </div>
+
+        <div class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-accent transition-colors">Home</a>
+          <a href="about.html" class="hover:text-accent transition-colors">About</a>
+          <a href="prospective.html" class="hover:text-accent transition-colors">Prospective Members</a>
+          <a href="contact.html" class="hover:text-accent transition-colors">Contact Us</a>
+        </div>
+
+        <button class="md:hidden text-white" id="mobile-menu-btn">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6">Sigma Phi Delta Fraternity</h2>
+      <h3 class="text-2xl md:text-3xl mb-8">Delta Chapter - University of Illinois Urbana-Champaign</h3>
+      <p class="text-xl max-w-3xl mx-auto mb-8">
+        Building leaders in engineering through brotherhood, academic excellence, and professional development
+      </p>
+      <div class="flex justify-center space-x-4">
+        <a href="prospective.html" class="bg-accent text-primary px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-colors">
+          Rush Information
+        </a>
+        <a href="about.html" class="border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-primary transition-colors">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+
+      <!-- About Section -->
+    <section id="about" class="py-16 bg-light">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">About Our Chapter</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4 text-secondary">Established in 1928</h3>
+                    <p class="text-lg mb-6">
+                        The Delta Chapter of Sigma Phi Delta at the University of Illinois Urbana-Champaign has been 
+                        fostering excellence in engineering education and professional development for nearly a century.
+                    </p>
+                    <p class="text-lg mb-6">
+                        As one of the oldest professional engineering fraternities on campus, we pride ourselves on 
+                        creating a supportive community where engineering students can grow both personally and professionally.
+                    </p>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <div class="text-3xl font-bold text-accent">40+</div>
+                            <div class="text-sm">Active Members</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <div class="text-3xl font-bold text-accent">3.4+</div>
+                            <div class="text-sm">Average GPA</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <div class="text-3xl font-bold text-accent">90%</div>
+                            <div class="text-sm">Internship Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img 
+                        src="assets/images/Spring19_House_Pic.jpg" 
+                        alt="Sigma Phi Delta fraternity brothers at UIUC" 
+                        class="w-full rounded-lg shadow-lg"
+                        loading="lazy"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brotherhood Section -->
+    <section id="brotherhood" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Brotherhood & Community</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-light rounded-lg">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-secondary">Social Events</h3>
+                    <p class="text-gray-700">
+                        From formal gatherings to casual brotherhood events, we build lasting friendships through 
+                        shared experiences and memorable moments.
+                    </p>
+                </div>
+                
+                <div class="text-center p-6 bg-light rounded-lg">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-graduation-cap text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-secondary">Academic Support</h3>
+                    <p class="text-gray-700">
+                        Our extensive test bank, study groups, and tutoring system ensure academic success for all our members.
+                    </p>
+                </div>
+                
+                <div class="text-center p-6 bg-light rounded-lg">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hands-helping text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-secondary">Philanthropy</h3>
+                    <p class="text-gray-700">
+                        We're committed to giving back to our community through various service projects and charity events throughout the year.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img 
+                    src="assets/images/old_beach_day.jpg" 
+                    alt="Brotherhood event" 
+                    class="w-full rounded-lg"
+                    loading="lazy"
+                />
+                <img 
+                    src="assets/images/old_quad_day.jpg" 
+                    alt="Study session" 
+                    class="w-full rounded-lg"
+                    loading="lazy"
+                />
+                <img 
+                    src="assets/images/SPD_AOE_Bonfire.jpg" 
+                    alt="Community service" 
+                    class="w-full rounded-lg"
+                    loading="lazy"
+                />
+                <img 
+                    src="/assets/images/Spring19_EOH1.jpg" 
+                    alt="Social gathering" 
+                    class="w-full rounded-lg"
+                    loading="lazy"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Development Section -->
+    <section id="professional" class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-heading font-bold text-center mb-12">Professional Development</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Career Preparation</h3>
+                    <p class="text-lg mb-6">
+                        Sigma Phi Delta provides unparalleled professional development opportunities through 
+                        resume workshops, interview preparation, and networking events with industry leaders.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-3"></i>
+                            Industry networking events and company info sessions
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-3"></i>
+                            Resume reviews and interview practice sessions
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-3"></i>
+                            Professional development workshops
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-3"></i>
+                            Alumni mentorship program
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img 
+                        src="https://picsum.photos/600/400?random=6" 
+                        alt="Professional development workshop" 
+                        class="w-full rounded-lg shadow-lg"
+                        loading="lazy"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where We Work Section -->
+    <section id="companies" class="py-16 bg-light">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Where Our Brothers Work</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-12">
+                Our members have secured positions at top engineering firms and tech companies across the country. 
+                Here are some of the companies where our brothers have interned or found full-time employment:
+            </p>
+            
+            <div class="relative overflow-hidden">
+                <div class="company-carousel flex space-x-8">
+                    <!-- First set of companies -->
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Google</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Microsoft</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Apple</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Tesla</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Boeing</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">SpaceX</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Amazon</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Meta</span>
+                    </div>
+                    
+                    <!-- Duplicate set for continuous scrolling -->
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Google</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Microsoft</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Apple</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Tesla</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Boeing</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">SpaceX</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Amazon</span>
+                    </div>
+                    <div class="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                        <span class="font-bold text-gray-800">Meta</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="text-lg mb-6">
+                    Our extensive alumni network provides valuable connections and mentorship opportunities for current members.
+                </p>
+                <button class="bg-accent text-primary px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-colors">
+                    Connect With Our Alumni
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+  <footer class="bg-primary text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h4 class="text-xl font-bold mb-4">Sigma Phi Delta</h4>
+          <p class="mb-4">Delta Chapter at University of Illinois Urbana-Champaign</p>
+          <p>Professional Engineering Fraternity</p>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#about" class="hover:text-accent transition-colors">About</a></li>
+            <li><a href="#brotherhood" class="hover:text-accent transition-colors">Brotherhood</a></li>
+            <li><a href="#professional" class="hover:text-accent transition-colors">Professional</a></li>
+            <li><a href="#companies" class="hover:text-accent transition-colors">Where We Work</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-bold mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="prospective.html" class="hover:text-accent transition-colors">Rush Information</a></li>
+            <li><a href="#" class="hover:text-accent transition-colors">Member Portal</a></li>
+            <li><a href="alumni.html" class="hover:text-accent transition-colors">Alumni Network</a></li>
+            <li><a href="#" class="hover:text-accent transition-colors">Career Resources</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-bold mb-4">Connect</h4>
+          <div class="flex space-x-4 mb-4">
+            <a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <p>© 2023 Sigma Phi Delta - Delta Chapter</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

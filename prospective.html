@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prospective Members | Sigma Phi Delta - Delta Chapter | UIUC</title>
+  <meta name="description" content="Join Sigma Phi Delta at UIUC - Information for prospective members about rush events, benefits, and the recruitment process">
+  <meta name="keywords" content="Sigma Phi Delta, UIUC, rush, recruitment, prospective members, engineering fraternity">
+
+  <!-- Tailwind & Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Tailwind Custom Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          primary: "#000000",
+          secondary: "#2d3748",
+          accent: "#c41e3a",
+          light: "#f8f9fa",
+          Highlight: "#e53e3e"
+          },
+          fontFamily: {
+            heading: ['"Georgia"', 'serif'],
+            body: ['"Arial"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Custom JS -->
+  <script src="assets/js/scripts.js" defer></script>
+</head>
+<body class="min-h-screen bg-white font-body">
+  <!-- Header -->
+  <header class="bg-primary text-white shadow-lg">
+    <nav class="container mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+         <div class="bg-white rounded-md p-1 mr-3 shadow-md">
+    <img src="assets/images/spd_word_logo.png" alt="Sigma Phi Delta Logo" class="h-10 md:h-12">
+  </div> 
+          <h1 class="text-xl font-bold">Sigma Phi Delta</h1>
+        </div>
+
+        <div class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-accent transition-colors">Home</a>
+          <a href="about.html" class="hover:text-accent transition-colors">About</a>
+          <a href="prospective.html" class="hover:text-accent transition-colors">Prospective Members</a>
+          <a href="contact.html" class="hover:text-accent transition-colors">Contact Us</a>
+        </div>
+
+        <button class="md:hidden text-white" id="mobile-menu-btn">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6">Join Our Brotherhood</h2>
+      <p class="text-xl max-w-3xl mx-auto mb-8">
+        Become part of a legacy of excellence in engineering and brotherhood at the University of Illinois
+      </p>
+      <a href="#process" class="bg-accent text-primary px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-colors inline-block">
+        Learn About Membership
+      </a>
+    </div>
+  </section>
+
+  <!-- Why Join Section -->
+  <section id="why-join" class="py-16 bg-light">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Why Join Sigma Phi Delta?</h2>
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
+        <!-- Academic Excellence -->
+        <div class="bg-white p-8 rounded-lg shadow-md text-center">
+          <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-graduation-cap text-3xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4 text-secondary">Academic Excellence</h3>
+          <p class="text-gray-700 mb-4">
+            Maintain a competitive edge with our academic support system, study resources, and peer tutoring.
+          </p>
+          <ul class="text-left text-sm text-gray-600 space-y-2">
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>3.4+ chapter GPA average</span></li>
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Dedicated study rooms</span></li>
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-2"></i><span>Exam review sessions</span></li>
+          </ul>
+        </div>
+        <!-- Career Development -->
+        <div class="bg-white p-8 rounded-lg shadow-md text-center">
+          <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-briefcase text-3xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4 text-secondary">Career Development</h3>
+          <p class="text-gray-700 mb-4">
+            Access exclusive networking opportunities, internship placements, and career guidance.
+          </p>
+          <ul class="text-left text-sm text-gray-600 space-y-2">
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Industry networking events</span></li>
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Resume workshops</span></li>
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Alumni mentorship program</span></li>
+          </ul>
+        </div>
+        <!-- Brotherhood -->
+        <div class="bg-white p-8 rounded-lg shadow-md text-center">
+          <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-users text-3xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4 text-secondary">Brotherhood & Community</h3>
+          <p class="text-gray-700 mb-4">
+            Build lifelong friendships and become part of a supportive community that extends beyond college.
+          </p>
+          <ul class="text-left text-sm text-gray-600 space-y-2">
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Social events and activities</span></li>
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Philanthropy and service projects</span></li>
+            <li class="flex items-start"><i class="fas fa-check text-accent mr-2 mt-1"></i><span>Leadership opportunities</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-primary text-white p-8 rounded-lg">
+        <h3 class="text-2xl font-heading font-bold mb-6 text-center">Our Members Excel</h3>
+        <div class="grid md:grid-cols-4 gap-6 text-center">
+          <div><div class="text-3xl font-bold text-accent">95%</div><p>Internship placement rate</p></div>
+          <div><div class="text-3xl font-bold text-accent">$85K</div><p>Average starting salary</p></div>
+          <div><div class="text-3xl font-bold text-accent">100+</div><p>Active alumni network</p></div>
+          <div><div class="text-3xl font-bold text-accent">3.4</div><p>Chapter GPA average</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Process -->
+  <section id="process" class="py-16 bg-light">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Membership Process</h2>
+      <div class="max-w-4xl mx-auto">
+        <!-- Step 1 -->
+        <div class="flex flex-col md:flex-row items-stretch mb-12">
+          <div class="bg-primary text-white p-8 rounded-l-lg md:w-1/3 flex flex-col justify-center">
+            <div class="text-6xl font-bold text-accent mb-4">1</div>
+            <h3 class="text-xl font-bold mb-4">Attend Rush Events</h3>
+            <p>Come to our events to meet brothers and learn about our organization</p>
+          </div>
+          <div class="bg-white p-8 rounded-r-lg md:w-2/3">
+            <h4 class="text-lg font-bold mb-4 text-secondary">What to Expect</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Casual, no-pressure environment</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Free food and drinks at most events</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Opportunity to ask questions about fraternity life</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Meet brothers from various engineering disciplines</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="flex flex-col md:flex-row items-stretch mb-12">
+          <div class="bg-primary text-white p-8 rounded-l-lg md:w-1/3 flex flex-col justify-center">
+            <div class="text-6xl font-bold text-accent mb-4">2</div>
+            <h3 class="text-xl font-bold mb-4">Interview Process</h3>
+            <p>Formal interviews with our rush committee and executive board</p>
+          </div>
+          <div class="bg-white p-8 rounded-r-lg md:w-2/3">
+            <h4 class="text-lg font-bold mb-4 text-secondary">Interview Details</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>One-on-one conversations with current members</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Discussion of academic and career goals</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Opportunity to express interest in leadership roles</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Learn about time commitments and expectations</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="flex flex-col md:flex-row items-stretch mb-12">
+          <div class="bg-primary text-white p-8 rounded-l-lg md:w-1/3 flex flex-col justify-center">
+            <div class="text-6xl font-bold text-accent mb-4">3</div>
+            <h3 class="text-xl font-bold mb-4">Receive Bid</h3>
+            <p>Formal invitation to join our fraternity</p>
+          </div>
+          <div class="bg-white p-8 rounded-r-lg md:w-2/3">
+            <h4 class="text-lg font-bold mb-4 text-secondary">After Receiving a Bid</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Formal invitation extended within 48 hours of final interview</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Attend Bid Day celebration to meet your new pledge class</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Begin the new member education process</span></li>
+              <li class="flex items-start"><i class="fas fa-check-circle text-accent mr-3 mt-1"></i><span>Officially become a brother after initiation ceremony</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div><h4 class="text-xl font-bold mb-4">Sigma Phi Delta</h4><p class="mb-4">Delta Chapter at University of Illinois Urbana-Champaign</p><p>Professional Engineering Fraternity</p></div>
+        <div><h4 class="text-xl font-bold mb-4">Quick Links</h4><ul class="space-y-2"><li><a href="index.html" class="hover:text-accent transition-colors">Home</a></li><li><a href="about.html" class="hover:text-accent transition-colors">About</a></li><li><a href="#why-join" class="hover:text-accent transition-colors">Why Join</a></li><li><a href="#process" class="hover:text-accent transition-colors">Membership Process</a></li></ul></div>
+        <div><h4 class="text-xl font-bold mb-4">Resources</h4><ul class="space-y-2"><li><a href="#" class="hover:text-accent transition-colors">Member Portal</a></li><li><a href="alumni.html" class="hover:text-accent transition-colors">Alumni Network</a></li><li><a href="#" class="hover:text-accent transition-colors">Career Resources</a></li></ul></div>
+        <div><h4 class="text-xl font-bold mb-4">Connect</h4><div class="flex space-x-4 mb-4"><a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i class="fab fa-facebook-f"></i></a><a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i class="fab fa-instagram"></i></a><a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i class="fab fa-linkedin-in"></i></a></div><p>© 2023 Sigma Phi Delta - Delta Chapter</p></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

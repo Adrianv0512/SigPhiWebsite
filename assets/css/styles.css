@@ -1,0 +1,23 @@
+/* Tailwind customizations */
+@layer base {
+  body {
+    font-family: "Arial", sans-serif;
+  }
+  h1, h2, h3, h4 {
+    font-family: "Georgia", serif;
+  }
+}
+
+/* Custom animations */
+.company-carousel {
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.company-carousel:hover {
+  animation-play-state: paused;
+}
