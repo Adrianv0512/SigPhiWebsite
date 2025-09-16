@@ -8,5 +8,12 @@
   </head>
 
   <body>
+        <script>
+      if (window.CMS) {
+        CMS.init();
+      } else {
+        console.error("Decap CMS failed to load");
+      }
+    </script>
   </body>
 </html>
