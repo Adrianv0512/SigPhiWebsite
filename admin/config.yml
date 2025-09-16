@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Adrianv0512/SigPhiWebsite
   branch: main
+
 
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
