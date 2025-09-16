@@ -3,16 +3,18 @@ backend:
   repo: Adrianv0512/SigPhiWebsite
   branch: main
 
-
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
 collections:
   - name: "homepage"
     label: "Homepage"
-    file: "content/home.json"
-    fields:
-      - {label: "Hero Image", name: "hero_image", widget: "image"}
+    files:
+      - file: "content/home.json"
+        label: "Hero Image"
+        name: "home"
+        fields:
+          - {label: "Hero Image", name: "hero_image", widget: "image"}
 
   - name: "leadership"
     label: "Executive Board"
@@ -27,35 +29,47 @@ collections:
 
   - name: "other_positions"
     label: "Other Leadership Positions"
-    file: "content/other_positions.json"
-    fields:
-      - label: "Positions"
-        name: "positions"
-        widget: "list"
+    files:
+      - file: "content/other_positions.json"
+        label: "Other Leadership"
+        name: "other_positions"
         fields:
-          - {label: "Role", name: "role", widget: "string"}
-          - {label: "Name", name: "name", widget: "string"}
+          - label: "Positions"
+            name: "positions"
+            widget: "list"
+            fields:
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
 
   - name: "rush_flyer"
     label: "Rush Flyer"
-    file: "content/rush_flyer.json"
-    fields:
-      - {label: "Header", name: "header", widget: "string"}
-      - {label: "Flyer Image", name: "flyer_image", widget: "image"}
+    files:
+      - file: "content/rush_flyer.json"
+        label: "Rush Flyer"
+        name: "rush_flyer"
+        fields:
+          - {label: "Header", name: "header", widget: "string"}
+          - {label: "Flyer Image", name: "flyer_image", widget: "image"}
 
   - name: "rush_info"
     label: "Rush Information"
-    file: "content/rush_info.json"
-    fields:
-      - {label: "Rush Chair", name: "rush_chair", widget: "string"}
-      - {label: "Email", name: "email", widget: "string"}
-      - {label: "Phone", name: "phone", widget: "string"}
-      - {label: "Office Hours", name: "office_hours", widget: "string"}
+    files:
+      - file: "content/rush_info.json"
+        label: "Rush Information"
+        name: "rush_info"
+        fields:
+          - {label: "Rush Chair", name: "rush_chair", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Office Hours", name: "office_hours", widget: "string"}
 
   - name: "contact"
     label: "Contact Information"
-    file: "content/contact.json"
-    fields:
-      - {label: "Chapter Address", name: "address", widget: "text"}
-      - {label: "Main Phone", name: "main_phone", widget: "string"}
-      - {label: "General Email", name: "general_email", widget: "string"}
+    files:
+      - file: "content/contact.json"
+        label: "Contact Information"
+        name: "contact"
+        fields:
+          - {label: "Chapter Address", name: "address", widget: "text"}
+          - {label: "Main Phone", name: "main_phone", widget: "string"}
+          - {label: "General Email", name: "general_email", widget: "string"}
