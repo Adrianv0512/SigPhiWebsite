@@ -6,14 +6,12 @@ media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
 collections:
-  # Homepage content
   - name: "homepage"
     label: "Homepage"
     file: "content/home.json"
     fields:
       - {label: "Hero Image", name: "hero_image", widget: "image"}
 
-  # Executive board members
   - name: "leadership"
     label: "Executive Board"
     folder: "content/leadership"
@@ -25,7 +23,6 @@ collections:
       - {label: "Major & Grad Year", name: "details", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
 
-  # Other leadership positions
   - name: "other_positions"
     label: "Other Leadership Positions"
     file: "content/other_positions.json"
@@ -37,7 +34,6 @@ collections:
           - {label: "Role", name: "role", widget: "string"}
           - {label: "Name", name: "name", widget: "string"}
 
-  # Rush flyer & header
   - name: "rush_flyer"
     label: "Rush Flyer"
     file: "content/rush_flyer.json"
@@ -45,7 +41,6 @@ collections:
       - {label: "Header", name: "header", widget: "string"}
       - {label: "Flyer Image", name: "flyer_image", widget: "image"}
 
-  # Rush chair info
   - name: "rush_info"
     label: "Rush Information"
     file: "content/rush_info.json"
@@ -55,7 +50,6 @@ collections:
       - {label: "Phone", name: "phone", widget: "string"}
       - {label: "Office Hours", name: "office_hours", widget: "string"}
 
-  # Chapter contact info
   - name: "contact"
     label: "Contact Information"
     file: "content/contact.json"
