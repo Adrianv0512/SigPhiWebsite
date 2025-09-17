@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us | Sigma Phi Delta - Delta Chapter | University of
-            Illinois Urbana-Champaign</title>
-        <meta name="description"
-            content="Learn about the history, values, and leadership of Sigma Phi Delta Fraternity's Delta Chapter at UIUC">
-        <meta name="keywords"
-            content="Sigma Phi Delta, UIUC, about, history, leadership, engineering fraternity">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Sigma Phi Delta - Delta Chapter | University of Illinois Urbana-Champaign</title>
+  <meta name="description" content="Learn about the history, values, and leadership of Sigma Phi Delta Fraternity's Delta Chapter at UIUC">
+  <meta name="keywords" content="Sigma Phi Delta, UIUC, about, history, leadership, engineering fraternity">
 
-        <!-- Tailwind & Icons -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Tailwind & Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-        <!-- Tailwind Custom Config (must stay inline) -->
-        <script>
+  <!-- Tailwind Custom Config (must stay inline) -->
+  <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -36,344 +32,215 @@
     }
   </script>
 
-        <!-- Custom Styles -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- Custom JS -->
-        <script src="assets/js/scripts.js" defer></script>
-    </head>
-    <body class="min-h-screen bg-white font-body">
-        <!-- Header -->
-        <header class="bg-primary text-white shadow-lg">
-            <nav class="container mx-auto px-4 py-4">
-                <div class="flex justify-between items-center">
-                    <div class="flex items-center">
-                        <div class="bg-white rounded-md p-1 mr-3 shadow-md">
-                            <img src="assets/images/spd_word_logo.png"
-                                alt="Sigma Phi Delta Logo" class="h-10 md:h-12">
-                        </div>
-                        <h1 class="text-xl font-bold">Sigma Phi Delta</h1>
-                    </div>
+  <!-- Custom JS -->
+  <script src="assets/js/scripts.js" defer></script>
+</head>
+<body class="min-h-screen bg-white font-body">
+  <!-- Header -->
+  <header class="bg-primary text-white shadow-lg">
+    <nav class="container mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+          <div class="bg-white rounded-md p-1 mr-3 shadow-md">
+    <img src="assets/images/spd_word_logo.png" alt="Sigma Phi Delta Logo" class="h-10 md:h-12">
+  </div> 
+          <h1 class="text-xl font-bold">Sigma Phi Delta</h1>
+        </div>
 
-                    <div class="hidden md:flex space-x-6">
-                        <a href="index.html"
-                            class="hover:text-accent transition-colors">Home</a>
-                        <a href="about.html"
-                            class="hover:text-accent transition-colors">About</a>
-                        <a href="prospective.html"
-                            class="hover:text-accent transition-colors">Prospective
-                            Members</a>
-                        <a href="contact.html"
-                            class="hover:text-accent transition-colors">Contact
-                            Us</a>
-                    </div>
+        <div class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-accent transition-colors">Home</a>
+          <a href="about.html" class="hover:text-accent transition-colors">About</a>
+          <a href="prospective.html" class="hover:text-accent transition-colors">Prospective Members</a>
+          <a href="contact.html" class="hover:text-accent transition-colors">Contact Us</a>
+        </div>
 
-                    <button class="md:hidden text-white" id="mobile-menu-btn">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
-                </div>
-            </nav>
-        </header>
+        <button class="md:hidden text-white" id="mobile-menu-btn">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
 
-        <!-- Page Header -->
-        <section
-            class="bg-gradient-to-r from-primary to-secondary text-white py-16">
-            <div class="container mx-auto px-4 text-center">
-                <h2
-                    class="text-4xl md:text-5xl font-heading font-bold mb-6">About
-                    Our Chapter</h2>
-                <p class="text-xl max-w-3xl mx-auto">
-                    Discover the rich history, core values, and dedicated
-                    leadership that define the Delta Chapter of Sigma Phi Delta
-                    at UIUC
-                </p>
-            </div>
-        </section>
+  <!-- Page Header -->
+  <section class="bg-gradient-to-r from-primary to-secondary text-white py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6">About Our Chapter</h2>
+      <p class="text-xl max-w-3xl mx-auto">
+        Discover the rich history, core values, and dedicated leadership that define the Delta Chapter of Sigma Phi Delta at UIUC
+      </p>
+    </div>
+  </section>
 
-        <!-- History Section -->
-        <section id="history" class="py-16 bg-light">
-            <div class="container mx-auto px-4">
-                <h2
-                    class="text-3xl font-heading font-bold text-center mb-12 text-primary">Our
-                    History</h2>
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h3
-                            class="text-2xl font-bold mb-4 text-secondary">Founded
-                            in 1924</h3>
-                        <p class="text-lg mb-6">
-                            The Delta Chapter of Sigma Phi Delta was established
-                            at the University of Illinois Urbana-Champaign
-                            in 1924, making us one of the oldest professional
-                            engineering fraternities on campus. For nearly a
-                            century, we have been dedicated to fostering
-                            excellence in engineering education and professional
-                            development.
-                        </p>
-                        <p class="text-lg mb-6">
-                            Our chapter was founded during a time of rapid
-                            technological advancement, and we've maintained
-                            our commitment to innovation and progress throughout
-                            our history. Many of our alumni have gone on
-                            to become leaders in their respective engineering
-                            fields.
-                        </p>
-                        <div class="bg-white p-6 rounded-lg shadow-md">
-                            <h4
-                                class="text-xl font-bold mb-3 text-accent">Historical
-                                Milestones</h4>
-                            <ul class="space-y-2">
-                                <li class="flex items-start"><i
-                                        class="fas fa-star text-accent mr-3 mt-1"></i><span>1924
-                                        - Chapter founded at UIUC</span></li>
-                                <li class="flex items-start"><i
-                                        class="fas fa-star text-accent mr-3 mt-1"></i><span>1946
-                                        - Post-war reactivation and
-                                        growth</span></li>
-                                <li class="flex items-start"><i
-                                        class="fas fa-star text-accent mr-3 mt-1"></i><span>1975
-                                        - Current chapter house
-                                        established</span></li>
-                                <li class="flex items-start"><i
-                                        class="fas fa-star text-accent mr-3 mt-1"></i><span>2000
-                                        - Centennial celebration of national
-                                        organization</span></li>
-                                <li class="flex items-start"><i
-                                        class="fas fa-star text-accent mr-3 mt-1"></i><span>2024
-                                        - Preparing for our 100th
-                                        anniversary</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="https://picsum.photos/600/400?random=7"
-                            alt="Historical photo of Sigma Phi Delta members"
-                            class="w-full rounded-lg shadow-lg"
-                            loading="lazy" />
-                        <div
-                            class="mt-4 text-center text-sm text-gray-600">Founding
-                            members of the Delta Chapter in 1924</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- History Section -->
+  <section id="history" class="py-16 bg-light">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Our History</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-bold mb-4 text-secondary">Founded in 1924</h3>
+          <p class="text-lg mb-6">
+            The Delta Chapter of Sigma Phi Delta was established at the University of Illinois Urbana-Champaign 
+            in 1924, making us one of the oldest professional engineering fraternities on campus. For nearly a 
+            century, we have been dedicated to fostering excellence in engineering education and professional development.
+          </p>
+          <p class="text-lg mb-6">
+            Our chapter was founded during a time of rapid technological advancement, and we've maintained 
+            our commitment to innovation and progress throughout our history. Many of our alumni have gone on 
+            to become leaders in their respective engineering fields.
+          </p>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h4 class="text-xl font-bold mb-3 text-accent">Historical Milestones</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start"><i class="fas fa-star text-accent mr-3 mt-1"></i><span>1924 - Chapter founded at UIUC</span></li>
+              <li class="flex items-start"><i class="fas fa-star text-accent mr-3 mt-1"></i><span>1946 - Post-war reactivation and growth</span></li>
+              <li class="flex items-start"><i class="fas fa-star text-accent mr-3 mt-1"></i><span>1975 - Current chapter house established</span></li>
+              <li class="flex items-start"><i class="fas fa-star text-accent mr-3 mt-1"></i><span>2000 - Centennial celebration of national organization</span></li>
+              <li class="flex items-start"><i class="fas fa-star text-accent mr-3 mt-1"></i><span>2024 - Preparing for our 100th anniversary</span></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img src="https://picsum.photos/600/400?random=7" alt="Historical photo of Sigma Phi Delta members" class="w-full rounded-lg shadow-lg" loading="lazy"/>
+          <div class="mt-4 text-center text-sm text-gray-600">Founding members of the Delta Chapter in 1924</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Values Section -->
-        <section id="values" class="py-16 bg-white">
-            <div class="container mx-auto px-4">
-                <h2
-                    class="text-3xl font-heading font-bold text-center mb-12 text-primary">Our
-                    Core Values</h2>
-                <div class="grid md:grid-cols-3 gap-8 mb-16">
-                    <div class="text-center p-6 bg-light rounded-lg">
-                        <div
-                            class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-brain text-2xl text-white"></i>
-                        </div>
-                        <h3
-                            class="text-xl font-bold mb-3 text-secondary">Academic
-                            Excellence</h3>
-                        <p class="text-gray-700">We prioritize scholarship and
-                            intellectual growth, maintaining one of the highest
-                            average GPAs among engineering organizations on
-                            campus.</p>
-                    </div>
-                    <div class="text-center p-6 bg-light rounded-lg">
-                        <div
-                            class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-handshake text-2xl text-white"></i>
-                        </div>
-                        <h3
-                            class="text-xl font-bold mb-3 text-secondary">Professional
-                            Development</h3>
-                        <p class="text-gray-700">We prepare members for
-                            successful engineering careers through networking,
-                            workshops, and mentorship programs.</p>
-                    </div>
-                    <div class="text-center p-6 bg-light rounded-lg">
-                        <div
-                            class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-heart text-2xl text-white"></i>
-                        </div>
-                        <h3
-                            class="text-xl font-bold mb-3 text-secondary">Brotherhood</h3>
-                        <p class="text-gray-700">We build lifelong bonds through
-                            shared experiences, mutual support, and commitment
-                            to each other's success.</p>
-                    </div>
-                </div>
-                <div class="bg-primary text-white p-8 rounded-lg">
-                    <h3
-                        class="text-2xl font-heading font-bold mb-6 text-center">Our
-                        Mission Statement</h3>
-                    <p class="text-lg text-center italic max-w-3xl mx-auto">
-                        "To promote the advancement of the engineering
-                        profession through the development
-                        of its members into men of high ethical standards, to
-                        foster a spirit of cooperation
-                        and brotherhood, and to encourage the pursuit of
-                        knowledge and excellence in engineering education."
-                    </p>
-                </div>
-            </div>
-        </section>
+  <!-- Values Section -->
+  <section id="values" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Our Core Values</h2>
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
+        <div class="text-center p-6 bg-light rounded-lg">
+          <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-brain text-2xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-secondary">Academic Excellence</h3>
+          <p class="text-gray-700">We prioritize scholarship and intellectual growth, maintaining one of the highest average GPAs among engineering organizations on campus.</p>
+        </div>
+        <div class="text-center p-6 bg-light rounded-lg">
+          <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-handshake text-2xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-secondary">Professional Development</h3>
+          <p class="text-gray-700">We prepare members for successful engineering careers through networking, workshops, and mentorship programs.</p>
+        </div>
+        <div class="text-center p-6 bg-light rounded-lg">
+          <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-heart text-2xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-secondary">Brotherhood</h3>
+          <p class="text-gray-700">We build lifelong bonds through shared experiences, mutual support, and commitment to each other's success.</p>
+        </div>
+      </div>
+      <div class="bg-primary text-white p-8 rounded-lg">
+        <h3 class="text-2xl font-heading font-bold mb-6 text-center">Our Mission Statement</h3>
+        <p class="text-lg text-center italic max-w-3xl mx-auto">
+          "To promote the advancement of the engineering profession through the development 
+          of its members into men of high ethical standards, to foster a spirit of cooperation 
+          and brotherhood, and to encourage the pursuit of knowledge and excellence in engineering education."
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <!-- Leadership Section -->
-        <section id="leadership" class="py-16 bg-light">
-            <div class="container mx-auto px-4">
-                <h2
-                    class="text-3xl font-heading font-bold text-center mb-12 text-primary">Chapter
-                    Leadership</h2>
-                <p class="text-lg text-center max-w-3xl mx-auto mb-12">
-                    Our dedicated executive board works tirelessly to ensure the
-                    continued success and growth of our chapter.
-                    Meet the brothers who lead our organization.
-                </p>
-                <div id="exec-board"
-                    class="grid md:grid-cols-2 lg:grid-cols-4 gap-8"></div>
-
-                <script>
-fetch('/content/leadership')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById("exec-board");
-    data.forEach(officer => {
-      container.innerHTML += `
+  <!-- Leadership Section -->
+  <section id="leadership" class="py-16 bg-light">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Chapter Leadership</h2>
+      <p class="text-lg text-center max-w-3xl mx-auto mb-12">
+        Our dedicated executive board works tirelessly to ensure the continued success and growth of our chapter. 
+        Meet the brothers who lead our organization.
+      </p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div class="text-center">
-          <img src="${officer.image}" alt="${officer.role} ${officer.name}" 
-               class="w-40 h-28 rounded-lg mx-auto mb-4 shadow-md object-cover" loading="lazy"/>
-          <h3 class="text-xl font-bold text-secondary">${officer.name}</h3>
-          <p class="text-accent font-medium mb-2">${officer.role}</p>
-          <p class="text-sm text-gray-600">${officer.details}</p>
+          <img src="assets/images/chief.jpg" alt="President Josh Loomstein" class="w-40 h-28 rounded-lg mx-auto mb-4 shadow-md object-cover" loading="lazy"/>
+          <h3 class="text-xl font-bold text-secondary">Josh Loomstein</h3>
+          <p class="text-accent font-medium mb-2">President</p>
+          <p class="text-sm text-gray-600">Systems Engineering '26</p>
         </div>
-      `;
-    });
-  });
-</script>
-
-                <div id="other-positions"
-                    class="grid md:grid-cols-2 lg:grid-cols-4 gap-4"></div>
-
-                <script>
-fetch('/content/other_positions.json')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById("other-positions");
-    data.positions.forEach(pos => {
-      container.innerHTML += `
-        <div class="bg-white p-4 rounded-lg shadow-sm">
-          <h4 class="font-bold text-primary">${pos.role}</h4>
-          <p class="text-sm">${pos.name}</p>
+        <div class="text-center">
+          <img src="assets/images/vp.jpg" alt="Vice President David Adam" class="w-40 h-28 rounded-lg mx-auto mb-4 shadow-md object-cover" loading="lazy"/>
+          <h3 class="text-xl font-bold text-secondary">David Adam</h3>
+          <p class="text-accent font-medium mb-2">Vice President</p>
+          <p class="text-sm text-gray-600">Systems Engineering '26</p>
         </div>
-      `;
-    });
-  })
-  .catch(err => console.log("Error loading positions:", err));
-</script>
+        <div class="text-center">
+          <img src="assets/images/homan.jpg" alt="House Manager Peter Brennan" class="w-40 h-28 rounded-lg mx-auto mb-4 shadow-md object-cover" loading="lazy"/>
+          <h3 class="text-xl font-bold text-secondary">Peter Brennan</h3>
+          <p class="text-accent font-medium mb-2">House Manager</p>
+          <p class="text-sm text-gray-600">Computer Engineering '27</p>
+        </div>
+        <div class="text-center">
+          <img src="assets/images/bm.jpg" alt="Treasurer Andy Trujillo" class="w-40 h-28 rounded-lg mx-auto mb-4 shadow-md object-cover" loading="lazy"/>
+          <h3 class="text-xl font-bold text-secondary">Andy Trujillo</h3>
+          <p class="text-accent font-medium mb-2">Business Manager</p>
+          <p class="text-sm text-gray-600">Computer Science + Economics '27</p>
+        </div>
+        <div class="lg:col-span-4 flex justify-center">
+          <div class="text-center">
+            <img src="assets/images/sec.jpg" alt="Secretary Sam Royer" class="w-40 h-28 rounded-lg mx-auto mb-4 shadow-md object-cover" loading="lazy"/>
+            <h3 class="text-xl font-bold text-secondary">Sam Royer</h3>
+            <p class="text-accent font-medium mb-2">Secretary</p>
+            <p class="text-sm text-gray-600">Electrical Engineering '27</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="mt-12 text-center">
+        <h3 class="text-2xl font-bold mb-6 text-secondary">Other Leadership Positions</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-white p-4 rounded-lg shadow-sm"><h4 class="font-bold text-primary">Rush Chair</h4><p class="text-sm">Nicholas Adam</p></div>
+          <div class="bg-white p-4 rounded-lg shadow-sm"><h4 class="font-bold text-primary">Social Chair</h4><p class="text-sm">Dev Desai</p></div>
+          <div class="bg-white p-4 rounded-lg shadow-sm"><h4 class="font-bold text-primary">Scholastic Chair</h4><p class="text-sm">Andrew Tao</p></div>
+          <div class="bg-white p-4 rounded-lg shadow-sm"><h4 class="font-bold text-primary">Philanthropy Chair</h4><p class="text-sm">Owen Shin</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            </section>
+  <!-- Chapter House Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-heading font-bold text-center mb-12 text-primary">Our Chapter House</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img src="assets/images/spd_house.webp" alt="Sigma Phi Delta chapter house" class="w-full rounded-lg shadow-lg" loading="lazy"/>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold mb-4 text-secondary">Home Away From Home</h3>
+          <p class="text-lg mb-6">Our chapter house, located at 123 Greek Row Drive in Urbana, has been the heart of our brotherhood since 1975. The house provides a comfortable living environment for both active members and alumni visiting campus.</p>
+          <p class="text-lg mb-6">The facility features study rooms, common areas for social gatherings, a full kitchen, and accommodations for over 30 brothers. It serves as the central hub for all chapter activities and events.</p>
+          <div class="bg-light p-6 rounded-lg">
+            <h4 class="text-xl font-bold mb-3 text-accent">House Features</h4>
+            <ul class="grid grid-cols-2 gap-2">
+              <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i>Study rooms</li>
+              <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i>Common areas</li>
+              <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i>Full kitchen</li>
+              <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i>Laundry facilities</li>
+              <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i>High-speed internet</li>
+              <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i>Parking available</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <!-- Chapter House Section -->
-            <section class="py-16 bg-white">
-                <div class="container mx-auto px-4">
-                    <h2
-                        class="text-3xl font-heading font-bold text-center mb-12 text-primary">Our
-                        Chapter House</h2>
-                    <div class="grid md:grid-cols-2 gap-12 items-center">
-                        <div>
-                            <img src="assets/images/spd_house.webp"
-                                alt="Sigma Phi Delta chapter house"
-                                class="w-full rounded-lg shadow-lg"
-                                loading="lazy" />
-                        </div>
-                        <div>
-                            <h3
-                                class="text-2xl font-bold mb-4 text-secondary">Home
-                                Away From Home</h3>
-                            <p class="text-lg mb-6">Our chapter house, located
-                                at 123 Greek Row Drive in Urbana, has been the
-                                heart of our brotherhood since 1975. The house
-                                provides a comfortable living environment for
-                                both active members and alumni visiting
-                                campus.</p>
-                            <p class="text-lg mb-6">The facility features study
-                                rooms, common areas for social gatherings, a
-                                full kitchen, and accommodations for over 30
-                                brothers. It serves as the central hub for all
-                                chapter activities and events.</p>
-                            <div class="bg-light p-6 rounded-lg">
-                                <h4
-                                    class="text-xl font-bold mb-3 text-accent">House
-                                    Features</h4>
-                                <ul class="grid grid-cols-2 gap-2">
-                                    <li class="flex items-center"><i
-                                            class="fas fa-check text-accent mr-2"></i>Study
-                                        rooms</li>
-                                    <li class="flex items-center"><i
-                                            class="fas fa-check text-accent mr-2"></i>Common
-                                        areas</li>
-                                    <li class="flex items-center"><i
-                                            class="fas fa-check text-accent mr-2"></i>Full
-                                        kitchen</li>
-                                    <li class="flex items-center"><i
-                                            class="fas fa-check text-accent mr-2"></i>Laundry
-                                        facilities</li>
-                                    <li class="flex items-center"><i
-                                            class="fas fa-check text-accent mr-2"></i>High-speed
-                                        internet</li>
-                                    <li class="flex items-center"><i
-                                            class="fas fa-check text-accent mr-2"></i>Parking
-                                        available</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Footer -->
-            <footer class="bg-primary text-white py-12">
-                <div class="container mx-auto px-4">
-                    <div class="grid md:grid-cols-4 gap-8">
-                        <div><h4 class="text-xl font-bold mb-4">Sigma Phi
-                                Delta</h4><p class="mb-4">Delta Chapter at
-                                University of Illinois
-                                Urbana-Champaign</p><p>Professional Engineering
-                                Fraternity</p></div>
-                        <div><h4 class="text-xl font-bold mb-4">Quick
-                                Links</h4><ul class="space-y-2"><li><a
-                                        href="index.html"
-                                        class="hover:text-accent transition-colors">Home</a></li><li><a
-                                        href="#history"
-                                        class="hover:text-accent transition-colors">History</a></li><li><a
-                                        href="#values"
-                                        class="hover:text-accent transition-colors">Values</a></li><li><a
-                                        href="#leadership"
-                                        class="hover:text-accent transition-colors">Leadership</a></li></ul></div>
-                        <div><h4
-                                class="text-xl font-bold mb-4">Resources</h4><ul
-                                class="space-y-2"><li><a href="prospective.html"
-                                        class="hover:text-accent transition-colors">Rush
-                                        Information</a></li><li><a href="#"
-                                        class="hover:text-accent transition-colors">Member
-                                        Portal</a></li><li><a href="alumni.html"
-                                        class="hover:text-accent transition-colors">Alumni
-                                        Network</a></li><li><a href="#"
-                                        class="hover:text-accent transition-colors">Career
-                                        Resources</a></li></ul></div>
-                        <div><h4 class="text-xl font-bold mb-4">Connect</h4><div
-                                class="flex space-x-4 mb-4"><a href="#"
-                                    class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i
-                                        class="fab fa-facebook-f"></i></a><a
-                                    href="#"
-                                    class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i
-                                        class="fab fa-instagram"></i></a><a
-                                    href="#"
-                                    class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i
-                                        class="fab fa-linkedin-in"></i></a></div><p>©
-                                2023 Sigma Phi Delta - Delta Chapter</p></div>
-                    </div>
-                </div>
-            </footer>
-        </body>
-    </html>
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div><h4 class="text-xl font-bold mb-4">Sigma Phi Delta</h4><p class="mb-4">Delta Chapter at University of Illinois Urbana-Champaign</p><p>Professional Engineering Fraternity</p></div>
+        <div><h4 class="text-xl font-bold mb-4">Quick Links</h4><ul class="space-y-2"><li><a href="index.html" class="hover:text-accent transition-colors">Home</a></li><li><a href="#history" class="hover:text-accent transition-colors">History</a></li><li><a href="#values" class="hover:text-accent transition-colors">Values</a></li><li><a href="#leadership" class="hover:text-accent transition-colors">Leadership</a></li></ul></div>
+        <div><h4 class="text-xl font-bold mb-4">Resources</h4><ul class="space-y-2"><li><a href="prospective.html" class="hover:text-accent transition-colors">Rush Information</a></li><li><a href="#" class="hover:text-accent transition-colors">Member Portal</a></li><li><a href="alumni.html" class="hover:text-accent transition-colors">Alumni Network</a></li><li><a href="#" class="hover:text-accent transition-colors">Career Resources</a></li></ul></div>
+        <div><h4 class="text-xl font-bold mb-4">Connect</h4><div class="flex space-x-4 mb-4"><a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i class="fab fa-facebook-f"></i></a><a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i class="fab fa-instagram"></i></a><a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white hover:bg-accent transition-colors"><i class="fab fa-linkedin-in"></i></a></div><p>© 2023 Sigma Phi Delta - Delta Chapter</p></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
